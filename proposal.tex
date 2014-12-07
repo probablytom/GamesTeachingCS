@@ -3,27 +3,44 @@
 \definecolor{customURL}{HTML}{08096E}
 \usepackage{hyperref}
 \hypersetup{
-%	hidelinks,
-%    colorlinks
-%	 linkcolor={red!50!black},
-%    citecolor={blue!50!black},
-%    urlcolor={blue!80!black}
 	linkcolor=MidnightBlue,
 	urlcolor=customURL,
 	colorlinks
 }
+\usepackage{changepage}
 \title{Paper games and their educational potential}
 \author{Tom Wallis}
 
 \begin{document}
 \maketitle
 
-The intention\footnote{\url{htp://abs.com}} of this paper is to judge how effective pen-and-paper games can be for education, by studying their application directly in the classroom. 
+The intention of this paper is to judge how effective pen-and-paper games can be for education, by studying their application directly in the classroom. 
 This particular project is to judge the effectiveness of a game derived from a reddit comment explaining "Programming languages' relation to binary".\footnote{\url{http://www.reddit.com/r/compsci/comments/1mee7g/non_cs_major_here_looking_to_understand/cc8n6tt}}
 
-The game derived from the comment -- which interested parties are \emph{highly advised} to read to have an understanding of the intention of the game -- is as follows: 
+The game derived from the comment -- which interested parties are \emph{highly advised} to read to have an understanding of the intention of the game -- is as follows: \\
+\\
 
+\begin{adjustwidth}{2em}{2em}
+We go through the discussion the comment goes through, using the same rules described. Rather than discussing a book, though, use numbered index cards; the children playing can take the cards in a pile and lay them out themselves. The intention here is to make the game as kinesthetic as possible. At this stage of the explanation, we go through the following rules:
+\begin{enumerate}
+	\item Write a number on an index card.
+	\item Announce the number on a given card.
+	\item Add the numbers on two given cards, and write them down on a third card.
+\end{enumerate}
+Once the players understand these rules and can manipulate them as a group, some exercises as a class should be done to cement their understanding of the processes they can enact with the rules they have laid out. They should be given simple things to calculate (find 3 + 7, for example, or work out how to subtract.) \emph{Crucially for the next stage}, students should be rewarded for getting things right in this stage of the game, so that they are invested in learning more. A Terrys' Chocolate Orange might be a good way to do this. \emph{Also crucially}, at the end, one or two pupils should be instructed to write down each rule used to solve the problems and keep these instructions indexed in a book or on a piece of paper. They should also be rewarded for proper indexing of the rules used to solve problems.
+Once some problems have been solved and their solutions indexed, Rule 4 should be introduced: 
+\begin{enumerate}\addtocounter{enumi}{3}
+	\item Read a list of commands from a set of index cards and execute them in order.
+\end{enumerate}
+The pupils should practice this as with the first three rules, and once it is felt that they properly understand and can use all four rules, the class should be paired off. 
+Each pair should elect an encoder and a decoder, and the class then play a game. There is to be a race to see which pair of encoders and decoders can encode a problem and decode it to get the right answer first. 
+Encoders are to sit on one side of the class and are given an equation to encode. Once they have turned this equation into a series of rules, the paper is to be passed to the respective decoder to execute. The first decoder to sucessfully execute their set of rules, write down the correct answer, and hand it into the teacher win the game and are rewarded as in the training previously. 
+Note that care must be taken to prevent cheating in this game. The decoder must hand in their sheet of commands with the answer on it, so as to confirm that their team did not cheat to get the answer. Proof of working may also be required; this verification process is to be finalised. 
+\end{adjustwidth}\\
+\\
 
+While the game is still subject to change, it is hoped that this process allows for the pupils to be immersed in the architecture of the game and find themselves exploring the ossibilities of processor architecture in a way that is interesting and fun enough to keep them engaged in what can be a mundane topic for some. 
 
+The paper will compare understandings of processor architecture through a questionaire or test with control groups who have learned about the same subject with traditional learning methods, and the game designed to teach processor architecture specifically. Statistical analysis and methodology are to be finalised. 
 
 \end{document}
