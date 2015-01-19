@@ -16,3 +16,5 @@ Method
 The data for the project will be collected by way of visiting schools in person and running sessions with pupils. It is possible that some interested peers will also run some sessions and collect data, as there is some interest in this project from outside observers.
 The data will be collected by way of having one set of pupils (chosen randomly) play the game together, and one set of pupils having a lesson at the same time in another room, by the traditional method their teacher uses. 
 After this, a test will be administered and the pupils' understanding measured. 
+
+Some schools in Falkirk are being looked into at the moment for performing the first experiments in. Lecturers at Glasgow University will be contacted to gain an understanding of how many classrooms tests should be run in. 
